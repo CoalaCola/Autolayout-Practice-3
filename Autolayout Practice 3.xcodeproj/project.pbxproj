@@ -12,16 +12,18 @@
 		5642AF541F2F487100A6F8D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5642AF521F2F487100A6F8D8 /* Main.storyboard */; };
 		5642AF561F2F487100A6F8D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5642AF551F2F487100A6F8D8 /* Assets.xcassets */; };
 		5642AF591F2F487100A6F8D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5642AF571F2F487100A6F8D8 /* LaunchScreen.storyboard */; };
+		5642AF611F2F490A00A6F8D8 /* TrueLoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5642AF601F2F490A00A6F8D8 /* TrueLoveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5642AF4B1F2F487100A6F8D8 /* PureClassTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureClassTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5642AF4B1F2F487100A6F8D8 /* Autolayout Practice 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autolayout Practice 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5642AF4E1F2F487100A6F8D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5642AF501F2F487100A6F8D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5642AF531F2F487100A6F8D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5642AF551F2F487100A6F8D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5642AF581F2F487100A6F8D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5642AF5A1F2F487100A6F8D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5642AF601F2F490A00A6F8D8 /* TrueLoveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueLoveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		5642AF421F2F487100A6F8D8 = {
 			isa = PBXGroup;
 			children = (
-				5642AF4D1F2F487100A6F8D8 /* PureClassTest */,
+				5642AF4D1F2F487100A6F8D8 /* Autolayout Practice 3 */,
 				5642AF4C1F2F487100A6F8D8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +48,31 @@
 		5642AF4C1F2F487100A6F8D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5642AF4B1F2F487100A6F8D8 /* PureClassTest.app */,
+				5642AF4B1F2F487100A6F8D8 /* Autolayout Practice 3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5642AF4D1F2F487100A6F8D8 /* PureClassTest */ = {
+		5642AF4D1F2F487100A6F8D8 /* Autolayout Practice 3 */ = {
 			isa = PBXGroup;
 			children = (
 				5642AF4E1F2F487100A6F8D8 /* AppDelegate.swift */,
+				5642AF601F2F490A00A6F8D8 /* TrueLoveViewController.swift */,
 				5642AF501F2F487100A6F8D8 /* ViewController.swift */,
 				5642AF521F2F487100A6F8D8 /* Main.storyboard */,
 				5642AF551F2F487100A6F8D8 /* Assets.xcassets */,
 				5642AF571F2F487100A6F8D8 /* LaunchScreen.storyboard */,
 				5642AF5A1F2F487100A6F8D8 /* Info.plist */,
 			);
-			path = PureClassTest;
+			path = "Autolayout Practice 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5642AF4A1F2F487100A6F8D8 /* PureClassTest */ = {
+		5642AF4A1F2F487100A6F8D8 /* Autolayout Practice 3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5642AF5D1F2F487100A6F8D8 /* Build configuration list for PBXNativeTarget "PureClassTest" */;
+			buildConfigurationList = 5642AF5D1F2F487100A6F8D8 /* Build configuration list for PBXNativeTarget "Autolayout Practice 3" */;
 			buildPhases = (
 				5642AF471F2F487100A6F8D8 /* Sources */,
 				5642AF481F2F487100A6F8D8 /* Frameworks */,
@@ -79,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = PureClassTest;
+			name = "Autolayout Practice 3";
 			productName = PureClassTest;
-			productReference = 5642AF4B1F2F487100A6F8D8 /* PureClassTest.app */;
+			productReference = 5642AF4B1F2F487100A6F8D8 /* Autolayout Practice 3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5642AF461F2F487100A6F8D8 /* Build configuration list for PBXProject "PureClassTest" */;
+			buildConfigurationList = 5642AF461F2F487100A6F8D8 /* Build configuration list for PBXProject "Autolayout Practice 3" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5642AF4A1F2F487100A6F8D8 /* PureClassTest */,
+				5642AF4A1F2F487100A6F8D8 /* Autolayout Practice 3 */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 			files = (
 				5642AF511F2F487100A6F8D8 /* ViewController.swift in Sources */,
 				5642AF4F1F2F487100A6F8D8 /* AppDelegate.swift in Sources */,
+				5642AF611F2F490A00A6F8D8 /* TrueLoveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +278,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9JF9YBU33;
-				INFOPLIST_FILE = PureClassTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Autolayout Practice 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WILD.PureClassTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "WILD.Autolayout Practice 3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -288,9 +292,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G9JF9YBU33;
-				INFOPLIST_FILE = PureClassTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Autolayout Practice 3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WILD.PureClassTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "WILD.Autolayout Practice 3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5642AF461F2F487100A6F8D8 /* Build configuration list for PBXProject "PureClassTest" */ = {
+		5642AF461F2F487100A6F8D8 /* Build configuration list for PBXProject "Autolayout Practice 3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5642AF5B1F2F487100A6F8D8 /* Debug */,
@@ -309,13 +313,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5642AF5D1F2F487100A6F8D8 /* Build configuration list for PBXNativeTarget "PureClassTest" */ = {
+		5642AF5D1F2F487100A6F8D8 /* Build configuration list for PBXNativeTarget "Autolayout Practice 3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5642AF5E1F2F487100A6F8D8 /* Debug */,
 				5642AF5F1F2F487100A6F8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
